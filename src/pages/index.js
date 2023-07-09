@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = () => {
   return (
@@ -8,6 +9,9 @@ const IndexPage = () => {
         <p> 
           I'm making this by following the Gatsby tutorial
         </p>
+        <StaticImage 
+          alt="Impressive Primic"
+          src="../images/tribe.jpeg"/>
       </Layout>
     </main>
   )
