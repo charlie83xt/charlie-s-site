@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `The Critic Blogg`,
+    title: `The Critique Blogg`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
@@ -15,11 +15,8 @@ module.exports = {
         name: `blog`,
         path: `${__dirname}/blog`,
       },
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      }
     },
+    "gatsby-plugin-mdx",
   ],
 };
 

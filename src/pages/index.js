@@ -8,7 +8,7 @@ const IndexPage = () => {
     <main>
       <Layout pageTitle="Home Page">
         <p> 
-          I'm making this by following the Gatsby tutorial
+          I've achieved this blog thanks to Gatsby.
         </p>
         <StaticImage 
           alt="Impressive Primic"
